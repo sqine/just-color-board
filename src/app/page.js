@@ -11,7 +11,7 @@ const Home = () => {
   const [counter, setCounter] = useState(4)
   const [isRunning, setRunning] = useState(false)
   const [color, setColor] = useState(0)
-  const gapTime = 150
+  const gapTime = 80
 
   function addColor() {
     if( counter < 6 )
